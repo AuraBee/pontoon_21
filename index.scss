@@ -1,0 +1,79 @@
+* { box-sizing: border-box;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../images/ramesh-unsplash.jpg);
+    background-size: cover;
+    font-weight: bold;
+    color: ivory;
+    text-align: center;
+}
+
+.wrapper {
+    height:650px;
+    position: relative;
+    
+
+
+.main  {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+
+        h1 {
+            color: rgb(139, 255, 154);
+            font-size: 8.1rem;
+        }
+
+
+
+        p {
+            font-size: 3.1rem;
+        }
+
+
+        p:nth-of-type(1) {
+            font-size: 4.1rem;
+        }
+  
+
+
+        #message {
+            font-style: italic;
+        }
+
+        .btns { 
+
+            color: red;
+            margin: 5rem;
+
+
+            button {
+                color: #016f32;
+                margin: .5em;
+                background: rgb(139, 255, 154);
+                padding: 1em 1.5em;
+                font-weight: bolder;
+                font-size: 2.1rem;
+                line-height: 5rem;
+                letter-spacing: .15em;
+                border:3px solid;
+            
+                border-radius: 2px;
+                cursor: pointer;
+                
+             }
+        }
+    }
+}

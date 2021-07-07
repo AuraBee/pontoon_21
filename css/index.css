@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(../images/ramesh-unsplash.jpg);
+  background-size: cover;
+  font-weight: bold;
+  color: ivory;
+  text-align: center;
+}
+
+.wrapper {
+  height: 650px;
+  position: relative;
+}
+
+.wrapper .main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.wrapper .main h1 {
+  color: #8bff9a;
+  font-size: 8.1rem;
+}
+
+.wrapper .main p {
+  font-size: 3.1rem;
+}
+
+.wrapper .main p:nth-of-type(1) {
+  font-size: 4.1rem;
+}
+
+.wrapper .main #message {
+  font-style: italic;
+}
+
+.wrapper .main .btns {
+  color: red;
+  margin: 5rem;
+}
+
+.wrapper .main .btns button {
+  color: #016f32;
+  margin: .5em;
+  background: #8bff9a;
+  padding: 1em 1.5em;
+  font-weight: bolder;
+  font-size: 2.1rem;
+  line-height: 5rem;
+  letter-spacing: .15em;
+  border: 3px solid;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
