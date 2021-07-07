@@ -19,9 +19,11 @@ body {
 .wrapper {
   height: 650px;
   position: relative;
+  margin: 6rem;
 }
 
 .wrapper .main {
+  padding-top: 20rem;
   margin: 0;
   position: absolute;
   top: 50%;
